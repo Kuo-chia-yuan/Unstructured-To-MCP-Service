@@ -1,12 +1,176 @@
 [
     {
         "source": "presentation.pptx",
-        "content": "Raydium Display AI Integration Optimizing driver performance with MCP-based LLM workflows.",
+        "chunk_id": "presentation.pptx_chunk_0",
+        "content": "Raydium Display AI Integration Optimizing driver performance with MCP-based LLM workflows. Author: A",
+        "category": "Technical_Slide"
+    },
+    {
+        "source": "presentation.pptx",
+        "chunk_id": "presentation.pptx_chunk_1",
+        "content": "workflows. Author: AI Engineering Team Key Architectural Highlights • Edge-AI Upscaling: Integrated ",
+        "category": "Technical_Slide"
+    },
+    {
+        "source": "presentation.pptx",
+        "chunk_id": "presentation.pptx_chunk_2",
+        "content": "scaling: Integrated neural network pipes running locally on DDIC hardware layer. • Model Context Pro",
+        "category": "Technical_Slide"
+    },
+    {
+        "source": "presentation.pptx",
+        "chunk_id": "presentation.pptx_chunk_3",
+        "content": " • Model Context Protocol (MCP) Bindings: Exposing hardware register states to Claude Skills directl",
+        "category": "Technical_Slide"
+    },
+    {
+        "source": "presentation.pptx",
+        "chunk_id": "presentation.pptx_chunk_4",
+        "content": "laude Skills directly. • FastAPI Gateway: High-concurrency RESTful interface allowing software agent",
+        "category": "Technical_Slide"
+    },
+    {
+        "source": "presentation.pptx",
+        "chunk_id": "presentation.pptx_chunk_5",
+        "content": "owing software agents to poll telemetry data. • Dynamic Adapters: Support hot-swapping LoRA weights ",
+        "category": "Technical_Slide"
+    },
+    {
+        "source": "presentation.pptx",
+        "chunk_id": "presentation.pptx_chunk_6",
+        "content": "apping LoRA weights for specialized image optimization domains. Inference Pipeline Performance Metri",
+        "category": "Technical_Slide"
+    },
+    {
+        "source": "presentation.pptx",
+        "chunk_id": "presentation.pptx_chunk_7",
+        "content": "ne Performance Metrics",
         "category": "Technical_Slide"
     },
     {
         "source": "specs.pdf",
-        "content": "Raydium Semiconductor - IC Spec Sheet\nProject: RD-AI-2026 Inference Engine\nOperating Voltage: 0.8V - 1.2V\nInterface: MIPI DSI-2\nDescription: This chip provides high-efficiency AI upscaling for mobile displays.",
+        "chunk_id": "specs.pdf_chunk_0",
+        "content": "Raydium Semiconductor Corp. - Strictly Confidential Raydium Next-Gen Display Driver IC Technical Spe",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_1",
+        "content": "ver IC Technical Specification Sheet - v2.4.0 (2026) 1. System Overview The RD-AI-2026 is a premium ",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_2",
+        "content": "I-2026 is a premium High-Definition Display Driver IC (DDIC) designed with an embedded Edge-AI infer",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_3",
+        "content": "bedded Edge-AI inference engine. It supports real-time super-resolution, AI-driven motion blur reduc",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_4",
+        "content": "en motion blur reduction, and dynamic power optimization for OLED and high-refresh-rate mobile scree",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_5",
+        "content": "sh-rate mobile screens. By utilizing Model Context Protocol (MCP) server bindings, the hardware conf",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_6",
+        "content": "s, the hardware configuration can be dynamically mapped and simulated through high-level software ag",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_7",
+        "content": "gh-level software agents. Table 1.1: Electrical & Operating Parameters Parameter Min Value Max Value",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_8",
+        "content": " Min Value Max Value Interface / Protocol Core Operating Voltage (VDD) 0.75V 1.25V Internal DC-DC I/",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_9",
+        "content": "5V Internal DC-DC I/O Supply Voltage (IOVDD) 1.65V 1.95V MIPI DSI-2 / SPI Maximum Clock Frequency 40",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_10",
+        "content": "m Clock Frequency 400 MHz 1.2 GHz System PLL Standby Power Consumption 12 uA 45 uA Deep Sleep Mode P",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_11",
+        "content": "uA Deep Sleep Mode Page 1 Raydium Semiconductor Corp. - Strictly Confidential 2. Register Map & Conf",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_12",
+        "content": " Register Map & Configuration Tooling Host communication is implemented via standard 4-wire SPI or M",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_13",
+        "content": "dard 4-wire SPI or MIPI Command Mode. The built-in AI accelerator is initialized by flashing the fir",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_14",
+        "content": " by flashing the firmware into the adapter memory zone. Below is the recommended initialization sequ",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_15",
+        "content": " initialization sequence matrix for the AI upscaling pipe: Address Register Name Default Hex Functio",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_16",
+        "content": " Default Hex Functional Description 0x00A0 AI_EN_REG 0x00000000 Bit[0]: Enable inference engine laye",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_17",
+        "content": "nference engine layer calibration. 0x00A4 LORA_ADPT_PTR 0x3F001200 32-bit pointer targeting localize",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_18",
+        "content": "r targeting localized weight offset matrix. 0x00B0 THRES_CONF_VAL 0x0000FF7F Confidence score cut-of",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_19",
+        "content": "fidence score cut-off for object detection bounding boxes. 0x00C2 ERR_LOG_CTRL 0x00000001 Trigger re",
+        "category": "IC_Spec"
+    },
+    {
+        "source": "specs.pdf",
+        "chunk_id": "specs.pdf_chunk_20",
+        "content": "x00000001 Trigger register for hardware diagnostic dump sequence. Page 2",
         "category": "IC_Spec"
     }
 ]
